@@ -1,0 +1,10 @@
+public class File{
+  public String name;
+    public void setName(String newName){
+        name = newName;
+    }
+    public String getName(){
+        return name;
+	} 
+} // создаем класс File
+
