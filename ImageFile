@@ -1,0 +1,13 @@
+public class ImageFile extends File{
+  public String type;
+  public ImageFile(String t, String n){
+  type=t;
+  name=n;
+  }
+  public void setType(String newType){
+        type = newType;
+    }
+    public String getType(){
+        return type;
+    }
+}
