@@ -1,0 +1,13 @@
+public class AudioFile extends File{
+  public String type;
+  public AudioFile(String t, String n){
+  type=t;
+  name=n;
+  }
+  public void setType(String newType){
+        type = newType;
+    }
+    public String getType(){
+        return type;
+    }
+}
