@@ -1,0 +1,7 @@
+public class Directory {
+    public ImageFile file;
+    public Directory(){
+      this.file=new ImageFile
+      file.  
+      }
+    }
