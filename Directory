@@ -1,20 +1,29 @@
 public class Directory {
-    public ImageFile file;
+    public ImageFile file1;
     public Directory(){
-      this.file=new ImageFile;
-      file.setType(image); 
+      this.file1=new ImageFile;
+      file1.setType(image); 
       }
+      public String getType() {
+        return file1.getType();
+        }
     
-    public AudioFile file;
+    public AudioFile file2;
     public Directory(){
-      this.file=new AudioFile;
-      file.setType(mp3); 
+      this.file2=new AudioFile;
+      file2.setType(mp3); 
       }
+      public String getType() {
+        return file2.getType();
+        }
       
-      public TextFile file;
+      public TextFile file3;
     public Directory(){
-      this.file=new TextFile;
-      file.setType(doc); 
+      this.file3=new TextFile;
+      file3.setType(doc); 
       }
+      public String getType() {
+        return file3.getType();
+        }
 }
 
