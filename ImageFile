@@ -1,13 +1,16 @@
 public class ImageFile extends File{
-  public String type;
-  public ImageFile(String t, String n){
-  type=t;
-  name=n;
+  public String size;
+  public void setSize(String size){
+  this.size=size;
   }
-  public void setType(String newType){
-        type = newType;
-    }
-    public String getType(){
-        return type;
-    }
+  public String getSize(){
+  return size;
+  }
+  public static void main (String[] args){
+  
+  ImageFile i=new ImageFile();
+  i.setSize ("big");
+  i.setType ("image");
+  }
 }
+  
