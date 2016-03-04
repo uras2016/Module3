@@ -1,7 +1,20 @@
 public class Directory {
     public ImageFile file;
     public Directory(){
-      this.file=new ImageFile
-      file.  
+      this.file=new ImageFile;
+      file.setType(image); 
       }
-    }
+    
+    public AudioFile file;
+    public Directory(){
+      this.file=new AudioFile;
+      file.setType(mp3); 
+      }
+      
+      public TextFile file;
+    public Directory(){
+      this.file=new TextFile;
+      file.setType(doc); 
+      }
+}
+
